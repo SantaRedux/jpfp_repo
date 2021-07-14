@@ -9,9 +9,19 @@
     "build:dev": "npm run build -- --watch --mode=development"
   },
   "dependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "bootstrap": "^5.0.2",
     "express": "^4.17.1",
+    "path": "^0.12.7",
     "pg": "^8.6.0",
-    "sequelize": "^6.6.4"
+    "react-redux": "^7.2.4",
+    "react-router-dom": "^5.2.0",
+    "redux": "^4.1.0",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0",
+    "sequelize": "^6.6.5",
+    "url": "^0.11.0"
   },
   "devDependencies": {
     "@babel/core": "^7.14.6",
@@ -19,9 +29,10 @@
     "axios": "^0.21.1",
     "babel-loader": "^8.2.2",
     "nodemon": "^2.0.9",
+    "path-browserify": "^1.0.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "webpack": "^5.41.1",
+    "webpack": "^5.44.0",
     "webpack-cli": "^4.7.2"
   }
 }
